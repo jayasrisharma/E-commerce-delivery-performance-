@@ -1,0 +1,113 @@
+{
+  "sources": {
+    "olist_orders_dataset.csv": {
+      "rows": 99441,
+      "columns": 8,
+      "exact_duplicates_removed": 0,
+      "missing_by_column": {
+        "order_approved_at": 160,
+        "order_delivered_carrier_date": 1783,
+        "order_delivered_customer_date": 2965
+      }
+    },
+    "olist_order_items_dataset.csv": {
+      "rows": 112650,
+      "columns": 7,
+      "exact_duplicates_removed": 0,
+      "missing_by_column": {}
+    },
+    "olist_customers_dataset.csv": {
+      "rows": 99441,
+      "columns": 5,
+      "exact_duplicates_removed": 0,
+      "missing_by_column": {}
+    },
+    "olist_sellers_dataset.csv": {
+      "rows": 3095,
+      "columns": 4,
+      "exact_duplicates_removed": 0,
+      "missing_by_column": {}
+    },
+    "olist_products_dataset.csv": {
+      "rows": 32951,
+      "columns": 9,
+      "exact_duplicates_removed": 0,
+      "missing_by_column": {
+        "product_category_name": 610,
+        "product_name_lenght": 610,
+        "product_description_lenght": 610,
+        "product_photos_qty": 610,
+        "product_weight_g": 2,
+        "product_length_cm": 2,
+        "product_height_cm": 2,
+        "product_width_cm": 2
+      }
+    },
+    "olist_order_reviews_dataset.csv": {
+      "rows": 99224,
+      "columns": 7,
+      "exact_duplicates_removed": 0,
+      "missing_by_column": {
+        "review_comment_title": 87656,
+        "review_comment_message": 58247
+      }
+    },
+    "product_category_name_translation.csv": {
+      "rows": 71,
+      "columns": 2,
+      "exact_duplicates_removed": 0,
+      "missing_by_column": {}
+    }
+  },
+  "unparseable_timestamps": {
+    "purchased_at": 0,
+    "approved_at": 0,
+    "handed_to_carrier_at": 0,
+    "delivered_at": 0,
+    "estimated_at": 0,
+    "review_creation_date": 0,
+    "review_answer_timestamp": 0
+  },
+  "foreign_keys_validated": true,
+  "purchase_start": "2016-09-04",
+  "purchase_end": "2018-10-17",
+  "status_counts": {
+    "delivered": 96478,
+    "shipped": 1107,
+    "canceled": 625,
+    "unavailable": 609,
+    "invoiced": 314,
+    "processing": 301,
+    "created": 5,
+    "approved": 2
+  },
+  "delivered_missing_required_dates": 8,
+  "delivered_invalid_date_order": 0,
+  "eligible_missing_or_invalid_handoff": 1388,
+  "review_rows_with_invalid_score": 0,
+  "additional_valid_review_rows_removed": 551,
+  "orders_without_valid_review": 768,
+  "orders_without_items": 775,
+  "eligible_orders_without_items": 0,
+  "multi_seller_orders": 1278,
+  "multi_category_orders": 786,
+  "named_categories_without_translation": [
+    "pc_gamer",
+    "portateis_cozinha_e_preparadores_de_alimentos"
+  ],
+  "pearson_delay_vs_review": -0.2670266385428655,
+  "eligible_orders_with_review": 95824,
+  "eligible_orders_with_handoff": 95082,
+  "marketplace_late_pct_2017": 6.627366094045042,
+  "marketplace_late_pct_2018": 9.367716997934707,
+  "sellers_above_benchmark_both_years": 49,
+  "sql_cross_checks_passed": [
+    "kpi_summary",
+    "review_score_distribution",
+    "review_by_timing",
+    "seller_performance",
+    "category_performance",
+    "state_performance",
+    "handoff_performance"
+  ]
+}

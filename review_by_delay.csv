@@ -1,0 +1,6 @@
+timing,reviewed_orders,mean_review_score,low_review_orders,low_review_pct
+On time,88163,4.29411431,8130,9.22155553
+>0–3 days late,2636,3.76593323,504,19.11987860
+>3–7 days late,1773,2.31641286,1087,61.30851664
+>7–14 days late,1748,1.74313501,1366,78.14645309
+>14 days late,1504,1.70877660,1185,78.78989362
